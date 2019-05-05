@@ -1,1 +1,2 @@
-# exemple-api-tutorial
+# API .NET CORE
+Exemplo de API .NET Core (Tutorial - Medium)
