@@ -4485,11 +4485,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rgome\\Desktop\\API_TESTE\\ApiTutorial\\ApiTutorial.csproj",
+      "projectUniqueName": "C:\\Users\\rgome\\Desktop\\Repo GitHub\\exemple-api-tutorial\\ApiTutorial.csproj",
       "projectName": "ApiTutorial",
-      "projectPath": "C:\\Users\\rgome\\Desktop\\API_TESTE\\ApiTutorial\\ApiTutorial.csproj",
+      "projectPath": "C:\\Users\\rgome\\Desktop\\Repo GitHub\\exemple-api-tutorial\\ApiTutorial.csproj",
       "packagesPath": "C:\\Users\\rgome\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rgome\\Desktop\\API_TESTE\\ApiTutorial\\obj\\",
+      "outputPath": "C:\\Users\\rgome\\Desktop\\Repo GitHub\\exemple-api-tutorial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
