@@ -13,14 +13,24 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      
+      - name: List files
+        run: ls -la
+        
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '3.0.x'
+          
+      - name: Verify .NET installation
+        run: dotnet --version
+        
       - name: Restore dependencies
-        run: dotnet restore ApiTutorial.sln
+        run: dotnet restore
+        
       - name: Build
-        run: dotnet build ApiTutorial.sln --configuration Release --no-restore
+        run: dotnet build --configuration Release --no-restore
+        
       - name: Test (if exists)
         run: |
           if [ -f "ApiTutorial.Tests.csproj" ]; then
